@@ -30,13 +30,13 @@ private double precio;
 
 public void calcular() {
     if(categoria.equalsIgnoreCase("ficcion")){
-        precio = impuestos*0.15;
+        precio = impuestos*1.15;
         
 }else if (categoria.equalsIgnoreCase("ciencia")) {
-    precio = impuestos*0.10;
+    precio = impuestos*1.10;
     
 }else if (categoria.equalsIgnoreCase("romance")) {
-    precio = impuestos*0.05;
+    precio = impuestos*1.05;
  
    }
  }

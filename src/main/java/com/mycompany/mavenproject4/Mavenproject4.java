@@ -22,7 +22,7 @@ public class Mavenproject4 {
       
         System.out.println("Bienvenido a la biblioteca JC");
         System.out.println("-------------Que desea hacer------------");
-        System.out.println("1-tienda-virtual,\n 2-tienda-fisica,\n 3-consultar-compra-fisica,\n 4-consultar-compra-virtual,\n 5-salir");
+        System.out.println("1-tienda-virtual\n 2-tienda-fisica\n 3-consultar-compra-fisica\n 4-consultar-compra-virtual\n 5-salir");
       opcion = sc.nextInt();
       
       

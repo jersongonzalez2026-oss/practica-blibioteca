@@ -31,13 +31,13 @@ public class Lvirtual extends Biblioteca {
     
     public void calcular () {
         if (lugar.equalsIgnoreCase("chile")){
-            precio=costo*0.15;
+            precio=costo*1.15;
         
         }else if (lugar.equalsIgnoreCase("mexico")){
-        precio = costo*0.10;
+        precio = costo*1.10;
  
             } else if (lugar.equalsIgnoreCase("panama"))
-        precio = costo*0.05;   
+        precio = costo*1.05;   
         
     }
 
